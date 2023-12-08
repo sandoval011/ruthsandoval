@@ -23,7 +23,7 @@ ALLOWED_HOSTS = ['*']
 SECRET_KEY = 'django-insecure-y)d15gi#6z7a0*4)km&bbd3&lnlho_@j*8%b_zc^k%sz32=l-f'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -120,7 +120,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-STATIC_URL = 'static/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
